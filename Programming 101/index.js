@@ -5,3 +5,6 @@ let x;
 x = 3 + 3;
 let y;
 console.log(y);
+function add(x, y) {
+    return x + y;
+}
