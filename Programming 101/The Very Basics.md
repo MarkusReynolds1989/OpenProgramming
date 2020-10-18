@@ -177,7 +177,7 @@ function add(x:number, y:number)
 ```typescript
 function add(x: number, y: number) : number
 ```
-5. What we have written so far, we can consider our function signature. This is the parameters of the function (or the arguments the function can take when it's called) and what the function will return.
+5. What we have written so far, we can consider our function signature. This is the parameters of the function (or the arguments the function can take when it's called) and what the type of the value the function will return.
 
 6. Next, we will need to define what the function to do inside it's own scope.
 ```typescript
