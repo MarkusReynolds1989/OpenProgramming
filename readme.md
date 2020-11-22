@@ -17,7 +17,7 @@ The language I will be using for this course is TypeScript. Why TypeScript?
 4. Support for UI programming.
 5. High Level.
 
-The other language this course will use is C to explain lower level concepts and memory management, but it will be explored at the end of the course. 
+The other language this course will use is Rust to explain lower level concepts and memory management, but it will be explored at the end of the course. 
 
 ## High Level Concepts
 The very fundamentals for more intermediate topics in no particular order.  
