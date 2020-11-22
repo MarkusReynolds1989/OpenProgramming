@@ -450,4 +450,21 @@ In your file go ahead and clear everything and try the following
 let grades: number[] = [1,2,3,4,5,6];
 let tomsGrade: number = grades[6];
 ```
-You should get an error that says that the index is outside the bounds of the array. To **debug** this, that is to correct the error, recount your array carefully to determine the bounds.
+You should get an error that says that the index is outside the bounds of the array. To **debug** this, that is to correct the error, recount your array carefully to determine the bounds. Remember, arrays start with their first element as 0. So an array with 6 elements will count up from 0 to 5, with 5 being the 6th element.
+
+### Array exercises:
+1. Create an array of numbers and assign it to a variable called numberList, make sure there are 5 numbers in the array.
+2. Assign the 2nd element of numberList to a variable called secondNumber.
+3. Print the variable secondNumber to the console.
+
+## 1.6 Loops
+Loops are very important to a program because without them your program will run through the code once and then stop. But what if you needed your code to run forever? If it's the code on a server displaying your website you do not want it to stop. That's where loops come in, they are there so that you can write some code and have it execute a set number of times (or forever).
+
+Loops are also very important so that they can be used to cycle through the elements of an array. Consider this lesson and the one before almost the same lesson, because there's a high chance you will be cycling through the data in an array many times.
+
+```typescript
+// A loop that will print Hello to the terminal 10 times.
+for(let i = 0; i < 10; i++) {
+  console.log("Hello");
+}
+```
