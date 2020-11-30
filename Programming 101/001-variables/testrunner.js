@@ -3,16 +3,14 @@ const require = createRequire(import.meta.url);
 const assert = require('assert').strict;
 import * as variables from './variables.js';
 
-const testAmount = 3;
 let testsFailed = 0;
 
 function testXValue() {
 	try {
 		assert(variables.x, true);
-	} catch (error) {
+	}catch (error) {
 		console.error("Failed test 1.");
-		console.error(variables.x + " is not equal to true.");
-		testsFailed += 1;
+		console.error("Y evaluates to " + variables.x + " and is not equal to true");
 	}
 }
 
